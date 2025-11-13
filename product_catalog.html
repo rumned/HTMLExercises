@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Welcome to my online store</title>
+  </head>
+  <body>
+    <h1>Random things on sale!</h1>
+    <!--Products start here-->
+    <h2>Pets for adoption</h2>
+    <p>Feeling lonely? Why not adopt a pet?</p>
+    <h3>Dogs</h3>
+    <img src="https://placedog.net/640/480?r" alt="A random dog image" />
+    <p>
+      Man's best friend, surely a great choice. You have to take them for walks
+      to keep them happy.
+    </p>
+    <p><strong>Price: RM 100</strong></p>
+    <h3>Bears</h3>
+    <img src="https://placebear.com/g/640/480" alt="A random bear image" />
+    <p>
+      Man's predator. Maybe you feel like living on the edge is better, or
+      you're Russian.
+    </p>
+    <p><strong>Price: RM 1000 + life insurance</strong></p>
+    <!--New header for different product-->
+    <h2>Beard Styles</h2>
+    <p>Click to buy a new beard style. Just like GTA.</p>
+    <h3>Beard style #1</h3>
+    <img src="https://placebeard.it/640/480" alt="A random beard image" />
+    <p>This just oozes masculinity. Even if you are a woman.</p>
+    <p><strong>Price: RM 35</strong></p>
+    <!--Just used the same picture as bear, as a joke-->
+    <h3>Beard style #2</h3>
+    <img src="https://placebear.com/g/640/480" alt="A random bear image" />
+    <p>
+      If you see a bear, yes you did. Why keep the hair just on your face when
+      you can be all hair like a bear?
+    </p>
+    <p>
+      <strong>Price: RM 1000 + life insurance + a ticket to the zoo</strong>
+    </p>
+    <br />
+    <!--Table for product comparison-->
+    <h2>Product Comparison</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Dogs</th>
+          <th>Bears</th>
+          <th>Beard Style #1</th>
+          <th>(Bear)d Style #2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--Type-->
+        <tr>
+          <td>Type</td>
+          <td align="center">Pet</td>
+          <td align="center">Pet</td>
+          <td align="center">Hair</td>
+          <td align="center">Hair</td>
+        </tr>
+        <!--Size-->
+        <tr>
+          <td>Size</td>
+          <td align="center">Small</td>
+          <td align="center">Big</td>
+          <td align="center">Fits on face</td>
+          <td align="center">Fits whole body</td>
+        </tr>
+        <!--Lifespan-->
+        <tr>
+          <td>Lifespan</td>
+          <td align="center">10-15 years</td>
+          <td align="center">10-25 years in captivity</td>
+          <td align="center">Until the next shave</td>
+          <td align="center">Lifetime</td>
+        </tr>
+        <!--Danger Level-->
+        <tr>
+          <td>Danger Level</td>
+          <td align="center">!</td>
+          <td align="center">!!!</td>
+          <td align="center">?</td>
+          <td align="center">?!?!?!?!</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Pricing</td>
+          <td align="center">RM 100</td>
+          <td align="center">RM 1000 + life insurance</td>
+          <td align="center">RM 35</td>
+          <td align="center">RM 1000 + life insurance + a ticket to the zoo</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!--Order form-->
+    <h2>Order Form</h2>
+    <form target="_blank">
+      <label for="product">Select Product:</label><br />
+      <select name="product" id="product">
+        <option value="dog">Dog</option>
+        <option value="bear">Bear</option>
+        <option value="beard1">Beard Style #1</option>
+        <option value="beard2">Beard Style #2</option>
+      </select>
+      <br />
+      <br />
+      <label for="quantity">Select Quantity:</label><br />
+      <select name="quantity" id="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <br />
+      <br />
+      <label for="fname">Your name</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="email">Your email</label><br />
+      <input type="text" id="email" name="email" /><br /><br />
+      <input type="submit" value="Place Order" />
+    </form>
+  </body>
+</html>
